@@ -1,0 +1,55 @@
+body {
+    margin: 100px;
+    padding: 10%;
+    
+    
+  }
+  
+  .box {
+    background-color: rgb(190, 223, 5);
+    color: rgb(5, 25, 206);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+    box-shadow: 10px 9px 8px rgb(0, 0, 0);
+   
+
+    
+  }
+  
+  .box:nth-child(even) {
+    background-color: #ccc;
+    color: #000;
+
+    
+  }
+  
+  .wrapper {
+    width: 600px;
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-flow: column;
+
+  }
+h1{
+  text-align: center;
+  text-shadow:  rgb(12, 194, 5);
+}
+h2{
+  text-shadow: 3px 4px 5px blue;
+  text-align: center;
+  font-size: 250%;
+  box-shadow: inset 1px 2px 3px 1px ;
+}
+.box1{
+  background-color: brown;
+  box-shadow:inset 1px 4px 5px #000 ;
+  color: white;
+  border-radius: 20px ;
+  padding: 3%;
+font-size: 150%;
+width: 250px;
+height: 100px;
+}
